@@ -15,4 +15,3 @@ Also, all images are in the carousel menu are using landscape mode.
 - [ ] Add images as landscape intead of portrait.
 - [ ] Play ytb video once the PLAY button is pressed.
 - [ ] Fine tunning into elements positioning, font size, buttons behavior.
-
