@@ -1,0 +1,29 @@
+@media screen and (max-width:700px) {
+    header .container {
+        justify-content: start
+    }
+    header .container nav{
+        display: none;
+    }
+    header ul {
+        display: inline-flex;
+    }
+}
+@media screen and (max-width:450px) {
+    .movie-cover {
+        height: 190px;
+        width: 160px;
+    }
+    .highlighted-movie button {
+    margin-top: 0.5rem;
+    padding-bottom:20px;
+    }
+}
+@media screen and (max-width:380px) {
+    .movie-synopsis {
+        display:none;
+    }
+    nav{
+        font-size: 0.8rem;
+    }
+}

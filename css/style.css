@@ -1,0 +1,113 @@
+:root {
+    --red:#d81f26;
+    --black:#141414;
+}
+* {
+    padding:0;
+    margin:0;    
+    box-sizing: border-box;
+}
+body {
+    background: var(--black);
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.2rem;
+}
+header .container {
+    margin-left: 5px;
+    max-height: 70px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: transparent;
+    /**Gradient menu as Netflix one **/
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    background-image: -webkit-linear-gradient(top,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+}
+header .logo {
+    width: 92.5px;
+    height: 31px;
+    margin: 0.8rem 2.82rem;
+}
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 1rem;
+}
+header nav a:hover{
+    color:#fff;
+}
+header ul {
+    display: none;
+    color:#fff;
+    list-style-type: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+}
+header ul i {
+    margin-left: 5px;
+}
+
+/*Highlighted movie */
+.highlighted-movie {
+    color: #fff;
+    font-size: 1rem;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/backdrop/umbrella-academy.jpg'); 
+    background-size: cover;
+    min-height: 400px;
+    margin-bottom: 30px;
+
+}
+.highlighted-movie .container{
+    margin: 0 4rem;
+    max-width: 500px;
+    padding-top: 6rem;
+}
+.highlighted-movie .movie-description {
+    margin-bottom: 2px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.highlighted-movie .title {
+    margin-bottom: 0.8rem;
+    font-size: 2rem;
+}
+.highlighted-movie .info {
+    margin-bottom: 0.8rem;
+    font-size: 0.8rem;
+}
+.info span {
+    margin-right: 0.8rem;
+}
+.highlighted-movie button {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1.1rem 2rem;
+    margin-right: 1.1rem;
+    margin-bottom: 1.1rem;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.highlighted-movie button:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.highlighted-movie button i {
+    padding-right: 0.5rem;
+}
+.container.categories {
+    margin: 1.5rem 2rem;
+}
+.container.categories p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
