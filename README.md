@@ -1,7 +1,4 @@
 # netflix-clone
-<<<<<<< HEAD
-My first try on duplicating the Netflix page
-=======
 ### My first try on duplicating the Netflix page
 ---
 #### v1
@@ -19,4 +16,3 @@ Also, all images are in the carousel menu are using landscape mode.
 - [ ] Play ytb video once the PLAY button is pressed.
 - [ ] Fine tunning into elements positioning, font size, buttons behavior.
 
->>>>>>> c69b8bf (init commit)
